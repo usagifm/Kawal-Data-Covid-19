@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pencegahan_detail"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:clickable="true"
+        android:id="@+id/welcome"
+        app:cardCornerRadius="8dp"
+        tools:cardElevation="10dp"
+        tools:cardPreventCornerOverlap="false">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/warnacarboard"
+            android:orientation="vertical"
+            android:src="@drawable/cardbg1"
+            >
+
+
+            <ImageView
+                android:layout_width="189dp"
+                android:layout_height="60dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:src="@drawable/headerapp">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/warnacarboard"
+            android:orientation="vertical">
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/warnacarboard"
+                android:fontFamily="sans-serif-condensed-light"
+                android:paddingLeft="9sp"
+                android:paddingTop="15sp"
+                android:paddingBottom="15sp"
+                android:text="Langkah-Langkah Pencegahan Yang Harus Dilakukan"
+                android:textColor="@color/warnanegera"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="329dp" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/warnacarboard"
+                android:fontFamily="sans-serif-condensed-light"
+                android:paddingLeft="9sp"
+                android:paddingTop="7sp"
+                android:paddingBottom="10sp"
+                android:text="1. Hindari interaksi fisik (1 meter atau 3 kaki) dengan siapa pun yang memiliki gejala batuk pilek atau flu"
+                android:textColor="@color/warnanegera"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="329dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/socialdis"
+                android:layout_width="325dp"
+                android:layout_height="207dp"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                app:cardCornerRadius="8dp"
+                tools:cardElevation="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                tools:cardPreventCornerOverlap="false"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:layout_width="323dp"
+                    android:layout_height="215dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/socialdis">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/warnacarboard"
+                android:fontFamily="sans-serif-condensed-light"
+                android:paddingLeft="9sp"
+                android:paddingTop="7sp"
+                android:paddingBottom="10sp"
+                android:text="2. Menutup hidung dan mulut dengan tisu atau batuk dan bersin pada bagian dalam siku dan selalu gunakan masker saat berpergian"
+                android:textColor="@color/warnanegera"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="329dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/masker"
+                android:layout_width="325dp"
+                android:layout_height="207dp"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                app:cardCornerRadius="8dp"
+                tools:cardElevation="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                tools:cardPreventCornerOverlap="false"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:layout_width="323dp"
+                    android:layout_height="215dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/masker">
+
+                </ImageView>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/warnacarboard"
+                android:fontFamily="sans-serif-condensed-light"
+                android:paddingLeft="9sp"
+                android:paddingTop="7sp"
+                android:paddingBottom="10sp"
+                android:text="3. Mencuci tangan secara rutin dengan gel pembersih berbasis alkohol atau sabun dan bilas dengan air"
+                android:textColor="@color/warnanegera"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="329dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cuci"
+                android:layout_width="325dp"
+                android:layout_height="207dp"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                app:cardCornerRadius="8dp"
+                tools:cardElevation="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                tools:cardPreventCornerOverlap="false"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:layout_width="323dp"
+                    android:layout_height="215dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cucitangan">
+
+                </ImageView>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bersama Kita Lalui Pandemi"
+                android:layout_marginTop="30dp"
+                android:padding="8sp"
+                android:textAlignment="center"
+                android:textColor="@color/warnanegera"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="#DiRumahAja #TetapDirumah #CuciTangan #KitaBisa"
+                android:padding="8sp"
+                android:textAlignment="center"
+                android:textColor="@color/warnanegera"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light"
+                android:layout_marginBottom="20dp"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

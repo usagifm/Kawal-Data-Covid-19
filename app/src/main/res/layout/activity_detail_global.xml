@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    card_view:cardElevation="10dp"
+    card_view:cardPreventCornerOverlap="false">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/warnacarboard"
+        >
+
+        <TextView
+            android:id="@+id/text_view_country_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="9sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/warnanegera"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            android:text="Country Name : "
+            android:background="@color/head"
+            android:layout_marginBottom="5sp"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:id="@+id/text_view_newpositive_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8sp"
+            android:layout_marginLeft="6sp"
+            android:text="Positive : "
+            android:layout_marginBottom="4sp"
+            android:textColor="@color/warnanegera"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/text_view_positive_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="6sp"
+            android:text="Positive : "
+            android:layout_marginBottom="4sp"
+            android:textColor="@color/warnanegera"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textSize="15sp"
+            />
+
+
+        <TextView
+            android:id="@+id/text_view_newrecovered_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recovered : "
+            android:padding="8sp"
+            android:layout_marginLeft="6sp"
+            android:layout_marginBottom="4sp"
+            android:textColor="@color/warnanegera"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/text_view_recovered_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recovered : "
+            android:padding="8sp"
+            android:layout_marginLeft="6sp"
+            android:layout_marginBottom="4sp"
+            android:textColor="@color/warnanegera"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/text_view_newdied_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Died : "
+            android:padding="8sp"
+            android:layout_marginLeft="6sp"
+            android:layout_marginBottom="7sp"
+            android:textColor="@color/warnanegera"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/text_view_died_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Died : "
+            android:padding="8sp"
+            android:layout_marginLeft="6sp"
+            android:layout_marginBottom="7sp"
+            android:textColor="@color/warnanegera"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bersama Kita Lalui Pandemi"
+            android:layout_marginTop="30dp"
+            android:padding="8sp"
+            android:textAlignment="center"
+            android:textColor="@color/warnanegera"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#DiRumahAja #TetapDirumah #CuciTangan #KitaBisa"
+            android:padding="8sp"
+            android:textAlignment="center"
+            android:textColor="@color/warnanegera"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_marginBottom="20dp"
+            />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

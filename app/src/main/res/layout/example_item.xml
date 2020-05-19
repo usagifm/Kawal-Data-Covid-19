@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    card_view:cardElevation="10dp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:cardCornerRadius="5dp"
+
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/warnacarboard"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_country"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5sp"
+            android:background="@color/head"
+            android:fontFamily="sans-serif-condensed-light"
+            android:paddingLeft="9sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="10sp"
+            android:text="Country Name : "
+            android:textColor="@color/warnanegera"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:id="@+id/text_view_positive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6sp"
+            android:layout_marginBottom="4sp"
+            android:layout_marginTop="6sp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            android:padding="8sp"
+            android:text="Positive : "
+            android:textColor="@color/inpit"
+            android:textSize="13sp" />
+
+
+        <TextView
+            android:id="@+id/text_view_recovered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6sp"
+            android:layout_marginBottom="4sp"
+            android:background="@drawable/recovered"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="8sp"
+            android:text="Recovered : "
+            android:textStyle="bold"
+            android:textColor="@color/inpit"
+            android:textSize="13sp" />
+
+
+        <TextView
+            android:id="@+id/text_view_died"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6sp"
+            android:layout_marginBottom="7sp"
+            android:background="@drawable/died"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="8sp"
+            android:text="Died : "
+            android:textColor="@color/inpit"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12sp"
+            android:layout_marginBottom="6sp"
+            android:gravity="right"
+            android:text=" ▽ Detail"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

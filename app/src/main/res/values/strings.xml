@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kawal Data Covid-19</string>
+    <string name="title_activity_hospitals">Map</string>
+    <string name="update">update</string>
+    <string name="lattitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+</resources>

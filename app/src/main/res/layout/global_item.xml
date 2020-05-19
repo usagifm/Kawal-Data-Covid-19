@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    card_view:cardElevation="10dp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:cardCornerRadius="5dp"
+
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/warnacarboard"
+        android:orientation="vertical">
+
+
+
+
+
+        <TextView
+            android:id="@+id/indonesia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5sp"
+            android:background="@color/head"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:paddingLeft="9sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="10sp"
+            android:text="Data Covid-19 di Seluruh Dunia"
+            android:textColor="@color/warnanegera"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View style="@style/Divider"
+            android:layout_marginBottom="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/global_positive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner"
+                android:fontFamily="sans-serif-condensed-light"
+                android:padding="8sp"
+                android:layout_marginLeft="23dp"
+                android:text="Positive : "
+                android:textColor="@color/inpit"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                card_view:ignore="MissingConstraints"
+                card_view:layout_editor_absoluteX="51dp"
+                card_view:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/global_recovered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/recovered"
+                android:fontFamily="sans-serif-condensed-light"
+                android:padding="8sp"
+                android:text="Recovered : "
+                android:textColor="@color/inpit"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                card_view:ignore="MissingConstraints"
+                card_view:layout_editor_absoluteX="158dp"
+                card_view:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/global_deaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/died"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="right"
+                android:padding="8sp"
+                android:text="Died : "
+                android:textColor="@color/inpit"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                card_view:ignore="MissingConstraints"
+                card_view:layout_editor_absoluteX="293dp"
+
+                android:layout_marginBottom="20dp"
+                card_view:layout_editor_absoluteY="0dp" />
+
+        </LinearLayout>>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

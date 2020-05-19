@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">237656059241-fhd0ieo92mh9ii4ji4k68hp7nn24b6og.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://tubespam-6a21e.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">237656059241</string>
+    <string name="google_api_key" translatable="false">AIzaSyDDoXfSQuXb-a-b0G0Wp7fWuJPUA1t2q_U</string>
+    <string name="google_app_id" translatable="false">1:237656059241:android:8b8c46bd0d2806bc6e21f8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDDoXfSQuXb-a-b0G0Wp7fWuJPUA1t2q_U</string>
+    <string name="google_storage_bucket" translatable="false">tubespam-6a21e.appspot.com</string>
+    <string name="project_id" translatable="false">tubespam-6a21e</string>
+</resources>

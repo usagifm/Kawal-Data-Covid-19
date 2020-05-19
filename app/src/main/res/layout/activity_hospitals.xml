@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hospitals" >
+
+
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    tools:context=".Hospitals"
+    tools:layout="@android:layout/simple_spinner_dropdown_item"
+
+    />
+
+
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="580dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/lattitude"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="580dp"
+        android:ems="10"
+        android:hint="@string/longitude"
+        android:inputType="textPersonName"
+        android:id="@+id/longitude"
+        android:autofillHints=""
+
+        />
+
+    <Button
+        android:background="@drawable/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="650dp"
+        android:textColor="@color/inpit"
+android:text="@string/update"
+        android:onClick="updateButtonOnclick"
+        />
+
+</FrameLayout>

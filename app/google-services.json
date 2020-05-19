@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "237656059241",
+    "firebase_url": "https://tubespam-6a21e.firebaseio.com",
+    "project_id": "tubespam-6a21e",
+    "storage_bucket": "tubespam-6a21e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237656059241:android:8b8c46bd0d2806bc6e21f8",
+        "android_client_info": {
+          "package_name": "com.example.cobarecyccle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237656059241-hmfi24b3sh7j3ipvvl4hhgqhikefbjjc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cobarecyccle",
+            "certificate_hash": "be915d35f521837385dc6ad5d4ff92abe795b439"
+          }
+        },
+        {
+          "client_id": "237656059241-fhd0ieo92mh9ii4ji4k68hp7nn24b6og.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDoXfSQuXb-a-b0G0Wp7fWuJPUA1t2q_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237656059241-fhd0ieo92mh9ii4ji4k68hp7nn24b6og.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
